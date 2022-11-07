@@ -1,0 +1,24 @@
+.head {
+    @apply flex md:items-center xsm:flex-col md:flex-row justify-between text-blue-dark pb-13px md:border-b md:border-blue-dark md:mb-39px xsm:mb-5;
+
+    .title {
+        @apply text-28px font-bold xsm:border-b xsm:border-blue-dark xsm:pb-3 xsm:mb-6 md:border-none md:mb-0 md:pb-0;
+    }
+
+    &__btns {
+        @apply flex items-center xsm:text-base md:text-lg;
+
+        .favorite,
+        .share {
+            @apply flex items-center;
+
+            img {
+                @apply w-4 h-5 mr-4;
+            }
+        }
+        
+        .favorite {
+            @apply mr-31px;
+        }
+    }
+}

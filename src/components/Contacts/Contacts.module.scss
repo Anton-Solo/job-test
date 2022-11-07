@@ -1,0 +1,18 @@
+.contacts {
+    @apply bg-blue-bg text-contact-color rounded-lg;
+    .contacts__info {
+        @apply pt-31px px-62px pb-26px relative;
+
+        .head {
+            @apply font-bold text-xl mb-2;
+        }
+
+        span {
+            @apply block;
+        }
+    }
+
+    .map {
+        @apply rounded-lg;
+    }
+}

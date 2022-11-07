@@ -1,0 +1,27 @@
+.jobs {
+    @apply pb-16 pt-29px;
+}
+
+.pagination {
+    @apply flex justify-between mt-49px bg-white rounded-10.4px shadow-custom max-w-515px mx-auto px-5 py-10.4px;
+
+    .page {
+        @apply font-bold text-20.8px w-8 text-gray-medium;
+
+        &:not(:last-child) {
+            @apply mr-2;
+        }
+    }
+
+    .active {
+        @apply font-bold text-20.8px w-8 mr-2 text-blue-light underline;
+    }
+
+    .page__next {
+        @apply ml-auto pl-30px border-l border-gray-super-light;
+    }
+
+    .page__prev {
+        @apply mr-auto pr-30px border-r border-gray-super-light;
+    }
+}

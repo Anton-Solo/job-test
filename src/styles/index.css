@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts */
+@font-face {
+  font-family: 'Proxima-Nova';
+  src: url(../fonts/ProximaNova-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima-Nova';
+  src: url(../fonts/ProximaNova-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima-Nova';
+  src: url(../fonts/ProximaNova-Semibold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima-Nova';
+  src: url(../fonts/ProximaNova-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Proxima-Nova';
+    font-size: 16px;
+    background-color: #E6E9F2;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .container {
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  @media (min-width: 320px) {
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .container {
+        width: 590px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+        width: 980px;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .container {
+        width: 1240px;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .container {
+        width: 1400px;
+    }
+  }
